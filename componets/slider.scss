@@ -1,0 +1,98 @@
+.slider{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .slider__pictures{
+    /*background: url('slider/Slider.png') no-repeat;
+    почему так странно отбразилась картинка я же поставил не повторение*/
+    //overflow: hidden;
+    object-fit: cover;   //полное заполнение блоков
+    margin-left: -rem(200px);
+     
+  }
+  
+  .slider__text{
+    color:#fff;
+    margin-left: rem(85px);
+    margin-top: rem(90px);
+    position: absolute;
+  }
+  
+  
+  
+  
+  .slider__block{
+    width: rem(300px);
+    height: 100vh;
+    display: flex;
+    
+  }
+  
+  .slader__item{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .slider__list__one{
+    width: rem(100px);
+    height: 100vh;
+    justify-content: flex-start;
+    background:  #999999;
+    padding: rem(20px);
+    
+  }
+  
+  
+  .slider__text__one{
+    color:#fff;
+    transform: rotate(-90deg);
+    margin-top: rem(200px);
+    margin-right:rem(60px);
+    position: absolute;  
+    white-space: nowrap;    /*текст в одну строку*/
+   
+  }
+  
+  
+  
+  .slider__list__two{
+    width: rem(100px);
+    height: 100vh;
+    background: #151515;
+    padding: rem(20px);
+    
+   
+  }
+  
+  
+  
+  .slider__list__three{
+    width: rem(100px);
+    height: 100vh;
+    background: #E01F3C;
+    justify-content: flex-end;
+    padding: rem(20px);
+    
+    
+  }
+  
+  .slider__text__one{
+    color:#fff;
+    transform: rotate(-90deg);
+    margin-top: rem(200px);
+    margin-left:-rem(120px);  
+    white-space: nowrap;    /*текст в одну строку*/
+   
+  }
+  
+  
+  
+  
+  
+  
+  
+  
